@@ -24,7 +24,7 @@ html(lang='en')
 
     body#page-top
 
-        // Navigation
+        // Navigation  TODO -> add svg 
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
                 a.navbar-brand(href='#page-top') The Morning After
@@ -67,15 +67,11 @@ html(lang='en')
         // Projects
         section#projects.projects-section.bg-light
             .container.px-4.px-lg-5
-                // Featured Project Row
+                // Featured Project Row TODO -> spotify IFRAME
                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                     .col-xl-8.col-lg-7
-
                     .col-xl-4.col-lg-5
-                        .featured-text.text-center.text-lg-left
-                            h4 miusik pleiyer goes jiar
-                            p.text-black-50.mb-0
-                                | deez nuts 
+                    iframe(src="https://open.spotify.com/embed/track/0M3adYbGtyRHACP86dey1H?utm_source=generator", frameborder="0", allowfullscreen="", allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture", loading="lazy")    
                 .row.gx-0.mb-5.mb-lg-0.justify-content-center
                     .col-lg-6
 
@@ -103,10 +99,14 @@ html(lang='en')
                     a.mx-2(href='#!')
                         i.fab.fa-spotify
                     a.mx-2(href='#!')
+                        i.fab.fa-apple
+                    a.mx-2(href='#!')
                         i.fab.fa-youtube
                     a.mx-2(href='https://www.instagram.com/tmabandofficial/')
                         i.fab.fa-instagram
                     a.mx-2(href='mailto:tmabandofficial@gmail.com')
+                        i.fab.fa-tiktok
+                    a.mx-2(href='#!')
                         i.fab.fa-envelope
 
 
