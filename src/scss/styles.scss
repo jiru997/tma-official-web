@@ -22,3 +22,32 @@
 @import "./sections/signup.scss";
 @import "./sections/contact.scss";
 @import "./sections/footer.scss";
+
+
+//Import custom fonts: Moonrising
+@font-face {
+    font-family: Moonrising;
+    src: url('../assets/fonts/Moonrising.woff') format('woff');
+}
+
+//Import custom font: aliens_and_cows
+@font-face {
+    font-family: aliens_and_cows;
+    src: url('../assets/fonts/aliens_and_cows_trial.woff') format('woff');
+}
+
+
+//Apply font to navbar brand
+.navbar-brand{
+    font-family: aliens_and_cows;
+    }
+
+#bandTitle{
+    font-family: Moonrising;
+}
+
+#mailCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

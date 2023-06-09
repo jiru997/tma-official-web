@@ -11205,3 +11205,25 @@ body {
 .social {
   margin-top: 34px;
 }
+
+@font-face {
+  font-family: Moonrising;
+  src: url("../assets/fonts/Moonrising.woff") format("woff");
+}
+@font-face {
+  font-family: aliens_and_cows;
+  src: url("../assets/fonts/aliens_and_cows_trial.woff") format("woff");
+}
+.navbar-brand {
+  font-family: aliens_and_cows;
+}
+
+#bandTitle {
+  font-family: Moonrising;
+}
+
+#mailCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
