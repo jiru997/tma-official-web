@@ -24,18 +24,15 @@ html(lang='en')
 
     body#page-top
 
-        // Navigation  TODO -> add svg 
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
                 a.navbar-brand(href='#page-top') The Morning After
                 
-
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
-
                         li.nav-item
                             a.nav-link(href='#projects') Music
    
@@ -45,7 +42,7 @@ html(lang='en')
             .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
                 .d-flex.justify-content-center
                     .text-center
-                        div.centered-svg
+                        div.centered-svg.mb-5.mt-5
                             object(data="assets/MAIN-LOGO.svg" type="image/svg+xml")
                         p.text-white-50.mx-auto.mt-1.mb-4 Prepare for the aftermath. Brace yourself for The Morning After.
                         h2.text-white-50.mx-auto.mt-1.mb-1 /////////////////////// 
@@ -58,11 +55,9 @@ html(lang='en')
             .container.px-4.px-lg-5
                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                     p.text-black-80.mx-auto.mt-1.mb-4 ////Our Music
-                    .col-xl-8.col-lg-7
-                    .col-xl-4.col-lg-5
-                    iframe(src="https://www.youtube.com/embed/GCOWid9MahI",width="560", height="315" frameborder="0", allowfullscreen="", allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture", loading="lazy")    
-                .row.gx-0.mb-5.mb-lg-0.justify-content-center
-                    .col-lg-6
+                    .col-xl-13.col-lg-10
+                    iframe(src="https://www.youtube.com/embed/GCOWid9MahI",width="560", height="600" frameborder="0", allowfullscreen="", allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture", loading="lazy")    
+
 
 
                 .row.gx-0.justify-content-center
