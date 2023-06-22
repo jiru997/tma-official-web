@@ -10979,6 +10979,13 @@ body {
   letter-spacing: 0.0625em;
 }
 
+.centered-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
 #mainNav {
   min-height: 3.5rem;
   background-color: #fff;
