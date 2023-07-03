@@ -3,8 +3,13 @@
 // 
 
 .projects-section {
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: white;
+    background-image: url("../assets/img/TMA_SONGS_BACKGROUND.png");
+    background-size: 1300px 1050px;
     padding: 10rem 0;
-
+    background-color: #e6e200;
     .featured-text {
         padding: 2rem;
 
@@ -17,6 +22,7 @@
     .project-text {
         padding: 3rem;
         font-size: 90%;
+        
 
         @include media-breakpoint-up(lg) {
             padding: 5rem;
