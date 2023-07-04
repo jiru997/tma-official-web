@@ -36,10 +36,15 @@
     src: url('../assets/fonts/aliens_and_cows_trial.woff') format('woff');
 }
 
+@font-face {
+    font-family: PLANK___;
+    src: url(../assets/fonts/PLANK___.woff) format('woff');
+}
+
 
 //Apply font to navbar brand
 .navbar-brand{
-    font-family: aliens_and_cows;
+    font-family: PLANK___;
     }
 
 #bandTitle{
